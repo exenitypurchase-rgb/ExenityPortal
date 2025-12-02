@@ -1105,7 +1105,7 @@
             };
 
             try {
-                const response = await fetch(`${API_BASE}/api/prs`, {
+                    const response = await fetch('https://exenityportal.onrender.com/submit_pr', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(newPR)
